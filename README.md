@@ -15,18 +15,18 @@ About the program
 ### A running example:
 
 ```
-pid   uid   gid  ppid  pgid   sid      tty St (img) cmd
-   1     0     0     0     1     1        -  S (systemd) /sbin/init splash
-   2     0     0     0     0     0        -  S (kthreadd)
-   3     0     0     2     0     0        -  S (ksoftirqd/0)
-   5     0     0     2     0     0        -  S (kworker/0:0H)
-   7     0     0     2     0     0        -  S (rcu_sched)
-...
- 402  1000  1000     1   402   402        -  S (tmux) tmux
- 418  1000  1000   402   418   418   pts/13  S (bash) -bash
-1000     0     0     1  1000  1000   pts/13  S (ModemManager) /usr/sbin/ModemManager
-7541  1000  1000     1  7541  7541   pts/13  S (systemd) /lib/systemd/systemd --user
-7795  1000  1000  7541  7541  7541   pts/13  S ((sd-pam)) (sd-pam)          
+  pid   uid   gid  ppid  pgid   sid      tty St (img) cmd
+    1     0     0     0     1     1        -  S (systemd) /sbin/init splash
+    2     0     0     0     0     0        -  S (kthreadd)
+    3     0     0     2     0     0        -  S (ksoftirqd/0)
+    5     0     0     2     0     0        -  S (kworker/0:0H)
+    7     0     0     2     0     0        -  S (rcu_sched)
+  ...
+  402  1000  1000     1   402   402        -  S (tmux) tmux
+  418  1000  1000   402   418   418   pts/13  S (bash) -bash
+ 1000     0     0     1  1000  1000   pts/13  S (ModemManager) /usr/sbin/ModemManager
+ 7541  1000  1000     1  7541  7541   pts/13  S (systemd) /lib/systemd/systemd --user
+ 7795  1000  1000  7541  7541  7541   pts/13  S ((sd-pam)) (sd-pam)          
 10286  1000  1000 10257 10257 10257   pts/13  S (sshd) sshd: chuang@pts/2
 10287  1000  1000 10286 10287 10287    pts/2  S (bash) -bash
 10299  1000  1000 10287 10299 10287    pts/2  S (tmux) tmux at
